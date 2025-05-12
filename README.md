@@ -9,7 +9,8 @@ This repository showcases 8 different machine learning projects using neural net
 ### 1. **Body Fat Prediction using ANN**
 **Purpose:** Predict a person's body fat percentage from physical measurements.  
 **Algorithm:** Feedforward Neural Network (ANN) using `fitnet`.  
-🔗 [Code](bodyfat_ann_model.m) | 📄 [Report](bodyfat prediction using ANN.pdf)
+🔗 [Code](bodyfat_ann_model.m) | 📄 [Report](bodyfat%20prediction%20using%20ANN.pdf)
+
 
 ---
 
