@@ -62,6 +62,13 @@ This repository contains 8 unique neural network-based projects implemented in M
 
 ---
 
+### 8. **Iris Dataset**
+**Purpose:** Classify Iris flowers into three species (Setosa, Versicolor, Virginica) based on sepal and petal measurements.  
+**Algorithm:** Feedforward Neural Network (fitnet).
+🔗 [Code](iris.m) | 📄 [Report](iris_dataset.pdf)
+
+---
+
 ## 📌 How to Use
 1. Clone or download the repository.
 2. Open MATLAB.
