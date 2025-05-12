@@ -1,74 +1,77 @@
-# Neural Network Projects in MATLAB 🚀
+# 🤖 Neural Network Projects in MATLAB
 
-This repository showcases 8 different machine learning projects using neural networks in MATLAB. Each project tackles a unique problem — from classification to time-series prediction — and includes full code, training plots, evaluation metrics, and an IEEE-style report.
+This repository contains 8 unique neural network-based projects implemented in MATLAB, covering a variety of real-world prediction, classification, and time-series modeling tasks. Each project includes the code and an IEEE-style report.
 
 ---
 
 ## 📁 Project List
 
 ### 1. **Body Fat Prediction using ANN**
-**Purpose:** Predict a person's body fat percentage from physical measurements.  
-**Algorithm:** Feedforward Neural Network (ANN) using `fitnet`.  
+**Purpose:** Predict a person’s body fat percentage based on physical measurements.  
+**Algorithm:** Feedforward Neural Network (`fitnet`).  
 🔗 [Code](bodyfat_ann_model.m) | 📄 [Report](bodyfat%20prediction%20using%20ANN.pdf)
 
-
 ---
 
-### 2. **Chemical Concentration Estimation**
-**Purpose:** Estimate chemical concentrations from sensor data.  
-**Algorithm:** ANN (fitnet) for regression.  
-🔗 [Code](./ChemicalConcentration/code.m) | 📄 [Report](./ChemicalConcentration/report.pdf)
-
----
-
-### 3. **Iris Flower Classification**
-**Purpose:** Classify iris species based on petal and sepal lengths/widths.  
-**Algorithm:** Pattern Recognition Network (`patternnet`).  
-🔗 [Code](./IrisClassification/code.m) | 📄 [Report](./IrisClassification/report.pdf)
-
----
-
-### 4. **Handwritten Digit Recognition (CNN)**
-**Purpose:** Identify digits (0–9) from handwritten image data.  
-**Algorithm:** Convolutional Neural Network (CNN).  
-🔗 [Code](./DigitRecognitionCNN/code.m) | 📄 [Report](./DigitRecognitionCNN/report.pdf)
-
----
-
-### 5. **Japanese Vowel Speaker Classification (LSTM)**
-**Purpose:** Recognize speakers based on how they pronounce Japanese vowels.  
-**Algorithm:** Long Short-Term Memory (LSTM) Network.  
-🔗 [Code](./JapaneseVowelsLSTM/code.m) | 📄 [Report](./JapaneseVowelsLSTM/report.pdf)
-
----
-
-### 6. **Pollution Time-Series Prediction (TDNN)**
-**Purpose:** Predict future pollution levels using past sensor readings.  
-**Algorithm:** Time Delay Neural Network (TDNN).  
-🔗 [Code](./PollutionPrediction/code.m) | 📄 [Report](./PollutionPrediction/report.pdf)
-
----
-
-### 7. **Robotic Arm Position Prediction (NARX)**
-**Purpose:** Predict a robotic arm's position based on time-dependent input force.  
-**Algorithm:** Nonlinear Autoregressive Network with Exogenous Input (NARX).  
-🔗 [Code](./RoboticArmNARX/code.m) | 📄 [Report](./RoboticArmNARX/report.pdf)
-
----
-
-### 8. **Building Energy Consumption Modeling**
-**Purpose:** Model and predict energy usage patterns in a building.  
+### 2. **Building Energy Consumption Prediction**
+**Purpose:** Predict energy consumption in buildings based on given features.  
 **Algorithm:** Feedforward Neural Network (`fitnet`).  
-🔗 [Code](./BuildingEnergy/code.m) | 📄 [Report](./BuildingEnergy/report.pdf)
+🔗 [Code](building.m) | 📄 [Report](Building%20Energy%20Consumption%20Prediction%20ANN.pdf)
 
 ---
 
-## ✅ Requirements
-
-- MATLAB R2023a or later
-- Deep Learning Toolbox
-- Statistics and Machine Learning Toolbox
+### 3. **Chemical Process Output Prediction**
+**Purpose:** Predict chemical process outcomes using provided dataset inputs.  
+**Algorithm:** Feedforward Neural Network (`fitnet`).  
+🔗 [Code](chemical_dataset.m) | 📄 [Report](chemical_prediction.pdf)
 
 ---
 
+### 4. **Dynamic Modeling of Magnetic Levitation**
+**Purpose:** Predict and model the nonlinear dynamics of a magnetic levitation system.  
+**Algorithm:** NARX Neural Network.  
+🔗 [Code](maglev.m) | 📄 [Report](Dynamic%20Modeling%20of%20Magnetic%20Levitation%20NARX.pdf)
+
+---
+
+### 5. **Dynamic Modeling of Robotic Arm**
+**Purpose:** Model and predict the motion of a robotic arm based on input torque signals.  
+**Algorithm:** NARX Neural Network.  
+🔗 [Code](robotic_arm.m) | 📄 [Report](Dynamic%20Modeling%20of%20Robot%20Arm%20using%20NARX.pdf)
+
+---
+
+### 6. **Pollution Time-Series Forecasting**
+**Purpose:** Forecast future pollution levels from historical pollution data.  
+**Algorithm:** Time Delay Neural Network (TDNN).  
+🔗 [Code](pollution.m) | 📄 [Report](Pollution%20TimeSeries%20Prediction%20using%20TDNN.pdf)
+
+---
+
+### 7. **Japanese Vowel Speaker Classification**
+**Purpose:** Classify which speaker spoke a Japanese vowel based on how it was spoken.  
+**Algorithm:** Long Short-Term Memory (LSTM) Neural Network.  
+🔗 [Code](japanese.m) | 📄 [Report](Time%20Series%20Classification%20of%20japanese%20vowels%20using%20LSTM.pdf)
+
+---
+
+### 8. **Handwritten Digit Recognition**
+**Purpose:** Recognize handwritten digits (0–9) using image data.  
+**Algorithm:** Convolutional Neural Network (CNN).  
+🔗 [Code](handwritten.m) | 📄 [Report](handwritten_digit_classification.pdf)
+
+---
+
+## 📌 How to Use
+1. Clone or download the repository.
+2. Open MATLAB.
+3. Run the `.m` file corresponding to each project to view results and training.
+4. Read the PDF report for a detailed explanation of each model, dataset, performance metrics, and visuals.
+
+---
+
+## 🙌 Contributions
+Each project in this repository has been tested and evaluated individually. Feel free to fork, reuse, or extend these projects for your learning or research.
+
+---
 
